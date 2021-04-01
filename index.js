@@ -9,19 +9,54 @@ const questions = [
    {
        type: 'input',
        name: 'title',
-       message: 'What is the name of your repo?'
+       message: 'What is the Title of your project?'
    },
    {
         type: 'input',
-        name: 'email',
+        name: 'description',
         message: 'What is the name of your email?'
     },
     {
         type: 'list',
-        name: 'license',
+        name: 'table of contents',
         message: 'what kind of license does your project have?',
-        choices: ['mit', 'apache', 'no license']
-    }
+        choices: 
+    },
+    {
+        type: 'input',
+        name: 'description',
+        message: 'What is the name of your email?'
+    },
+    {
+        type: 'input',
+        name: 'description',
+        message: 'What is the name of your email?'
+    },
+    {
+        type: 'input',
+        name: 'description',
+        message: 'What is the name of your email?'
+    },
+    {
+        type: 'input',
+        name: 'description',
+        message: 'What is the name of your email?'
+    },
+    {
+        type: 'input',
+        name: 'description',
+        message: 'What is the name of your email?'
+    },
+    {
+        type: 'input',
+        name: 'description',
+        message: 'What is the name of your email?'
+    },
+    {
+        type: 'input',
+        name: 'description',
+        message: 'What is the name of your email?'
+    },
 ];
 
 // TODO: Create a function to write README file
