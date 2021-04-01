@@ -7,18 +7,30 @@ function renderLicenseBadge(license) {
     return `![License: Apache](https://img.shields.io/badge/License-Apache%202.0-blue.svg)`;
   } else if (license === "GMU"){
     return `![License: "GMU"](https://img.shields.io/badge/License-GPL%20v2-blue.svg)`;
-  } else if (license === " ") {
-    return "No License";
-  } return " ";
+  } else if (license === "") {
+    return "";
+  }
 }
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
-function renderLicenseLink(license) {}
+function renderLicenseLink(license) {
+  if (license === "MIT") {
+    return `![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)`;
+  } else if (license === "Apache") {
+    return `![License: Apache](https://img.shields.io/badge/License-Apache%202.0-blue.svg)`;
+  } else if (license === "GMU"){
+    return `![License: "GMU"](https://img.shields.io/badge/License-GPL%20v2-blue.svg)`;
+  } else if (license === "") {
+    return "";
+  }
+}
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
-function renderLicenseSection(license) {}
+function renderLicenseSection(license) {
+  
+}
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
