@@ -63,6 +63,7 @@ const questions = [
 function writeToFile(fileName, data) {
 
     fs.writeFileSync(path.join(process.cwd(), fileName), data);
+
 }
 
 // TODO: Create a function to initialize app
