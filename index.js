@@ -8,54 +8,54 @@
 const questions = [
    {
        type: 'input',
-       name: 'title',
+       name: 'Title',
        message: 'What is the Title of your project?'
    },
    {
         type: 'input',
-        name: 'description',
-        message: 'What is the name of your email?'
+        name: 'Description',
+        message: 'Please give a description of your project'
+    },
+    {
+        type: 'input',
+        name: 'Install',
+        message: 'What are the installation instructions?',
+    },
+    {
+        type: 'input',
+        name: 'Usage',
+        message: 'What is the usage and or uses for your application'
     },
     {
         type: 'list',
-        name: 'table of contents',
-        message: 'what kind of license does your project have?',
-        choices: 
+        name: 'License',
+        message: 'What kind of license does your project have?',
+        choices: ["MIT License", "Apache", "GNU Lesser General Public License", "No License"]
     },
     {
         type: 'input',
-        name: 'description',
-        message: 'What is the name of your email?'
+        name: 'Contributors',
+        message: 'Who are the contributors?'
     },
     {
         type: 'input',
-        name: 'description',
-        message: 'What is the name of your email?'
+        name: 'Test',
+        message: 'This is how you test this application'
     },
     {
         type: 'input',
-        name: 'description',
-        message: 'What is the name of your email?'
+        name: 'Questions',
+        message: 'Do you have any questions at this time?'
     },
     {
         type: 'input',
-        name: 'description',
-        message: 'What is the name of your email?'
+        name: 'GitHub',
+        message: 'What is you Username for GitHub?'
     },
     {
         type: 'input',
-        name: 'description',
-        message: 'What is the name of your email?'
-    },
-    {
-        type: 'input',
-        name: 'description',
-        message: 'What is the name of your email?'
-    },
-    {
-        type: 'input',
-        name: 'description',
-        message: 'What is the name of your email?'
+        name: 'Email',
+        message: 'What is your email address?'
     },
 ];
 
