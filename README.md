@@ -1,39 +1,43 @@
  
-  # test
+  # Readme Gen!
   
   ## Description  
-  testing this app for HW
+  Use this App to create a simple and effective readme file for any repo you may create, even this very one!
   
   ## Contents Table
   * [Installation](#installation)
   * [Usage](#usage)
-  * [License](#license)
-  * [Contributions](#contributions) 
-  * [Tests](#tests)
-  * [Questions](#questions) 
+  * [License](license)
+  * [Contributions](contributions) 
+  * [Tests](tests)
+  * [Questions](questions) 
 
   ## Installation
-  testing this app
+  This app can be installed via fork of the repo and then cloning into your terminal. Create a directory then you can install all node modules and packages needed to run including Inquirer and more. From here you will all run init in the intergrated terminal and then finally node index.js to prompt all questions!
 
   ## Usage
-  testing this app
+  This can be used for school or even in a proffesional enviornment!
 
   ## License
-  ![License: GNU](https://img.shields.io/badge/License-GPL%20v2-blue.svg) [GNU Link](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)
+  ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg) [MIT Link](https://opensource.org/licenses/BSD-3-Clause)
  
 
   ## Contributions
-  myself or user
+  Andre Rodriguez
   
   ## Tests
-  steps 1 2 3 4 5 6 
+  Run this code in node after running init and npm i with all needed modules. Next run index.js in the intergrated terminal to prompt user questions! You can also try to enter no input to have an empty string returned as a test to show the user funtionality approval. Clicking all links will also take you to the appropriate destination!
+
+  ## Demo
+  [Demo](https://user-images.githubusercontent.com/77699769/113473013-e2403100-9434-11eb-91ac-f58b97795c3d.mp4)
+  [DemoLink](https://drive.google.com/file/d/1DjSW4x8ByR6W9uELGxjUTffWJU9bbLua/view?usp=sharing)
 
   ## Questions
 
-  Reach out to me via Github if there are any questions! Otherwise use my email!:
+  Reach out to me via Github if there are any questions! Otherwise use my email!
 
-  Github: [tester tester.github](https://www.github.com/)
+  Github: [GitHub Link](https://github.com/drae7299)
 
-  Email: tester@test.com
+  Email: drae7299@gmail.com
   
 
