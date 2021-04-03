@@ -1,5 +1,4 @@
- 
-  # Readme Gen!
+# Readme Gen!
   
   ## Description  
   Use this App to create a simple and effective readme file for any repo you may create, even this very one!
