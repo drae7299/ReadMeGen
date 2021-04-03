@@ -8,53 +8,53 @@
 const questions = [
    {
        type: 'input',
-       name: 'Title',
+       name: 'title',
        message: 'What is the Title of your project?'
    },
    {
         type: 'input',
-        name: 'Description',
+        name: 'description',
         message: 'Please give a description of your project'
     },
     {
         type: 'input',
-        name: 'Install',
+        name: 'install',
         message: 'What are the installation instructions?',
     },
     {
         type: 'input',
-        name: 'Usage',
+        name: 'usage',
         message: 'What is the usage and or uses for your application'
     },
     {
         type: 'list',
-        name: 'License',
+        name: 'license',
         message: 'What kind of license does your project have?',
         choices: ["MIT License", "Apache", "GNU Lesser General Public License", "No License"]
     },
     {
         type: 'input',
-        name: 'Contributors',
+        name: 'contributions',
         message: 'Who are the contributors?'
     },
     {
         type: 'input',
-        name: 'Test',
+        name: 'test',
         message: 'This is where you enter steps to test this application'
     },
     {
         type: 'input',
-        name: 'Questions',
+        name: 'questions',
         message: 'Do you have any questions at this time?'
     },
     {
         type: 'input',
-        name: 'GitHub',
+        name: 'gitHub',
         message: 'What is you Username for GitHub?'
     },
     {
         type: 'input',
-        name: 'Email',
+        name: 'email',
         message: 'What is your email address?'
     },
 ];
@@ -71,7 +71,7 @@ function init() {
     inquirer.prompt(questions)
         .then(responses => {
            // console.log(responses)
-          const markUp = generateMarkdown(data)
+          const markUp = generateMarkdown(responses)
             writeToFile('README.md', markUp)
         })
 }
