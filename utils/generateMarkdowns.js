@@ -7,9 +7,8 @@ function renderLicenseBadge(license) {
     return `![License: Apache](https://img.shields.io/badge/License-Apache%202.0-blue.svg)`;
   } else if (license === "GMU"){
     return `![License: "GMU"](https://img.shields.io/badge/License-GPL%20v2-blue.svg)`;
-  } else if (license === "") {
+  } 
     return "";
-  }
 }
 
 // TODO: Create a function that returns the license link
@@ -21,9 +20,8 @@ function renderLicenseLink(license) {
     return `![License: Apache](https://img.shields.io/badge/License-Apache%202.0-blue.svg)`;
   } else if (license === "GMU"){
     return `![License: "GMU"](https://img.shields.io/badge/License-GPL%20v2-blue.svg)`;
-  } else if (license === "") {
+  }  
     return "";
-  }
 }
 
 // TODO: Create a function that returns the license section of README
@@ -35,9 +33,46 @@ function renderLicenseSection(license) {
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
 
-  return `# ${data.title}
-  # ${data.email}
-  # ${data.license}
+  return ` 
+  # ${response.title}
+  
+  ## Description  
+  ${response.description}
+  
+  ## Contents Table
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [License](license)
+  * [Contributions](contributions) 
+  * [Tests](tests)
+  * [Questions](questions) 
+
+  ## Installation
+  ${response.install}
+
+  ## Usage
+  ${response.usage}
+
+  ## License
+  ${renderLicenseBadge(response.license)}
+  ${renderLicenseLink(response.license)}
+
+  ## Contributions
+  ${response.contributions}
+  
+  ## Tests
+  ${response.test}
+
+  ## Questions
+
+  Reach out to me via Github if there are any questions! Otherwise use my email!:
+
+  Github: [${response.git}](https://www.github.com/)
+
+  Email: 
+
+   ${response.email}
+  
 
 `;
 }

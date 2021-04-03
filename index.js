@@ -40,7 +40,7 @@ const questions = [
     {
         type: 'input',
         name: 'Test',
-        message: 'This is how you test this application'
+        message: 'This is where you enter steps to test this application'
     },
     {
         type: 'input',
@@ -71,7 +71,7 @@ function init() {
     inquirer.prompt(questions)
         .then(responses => {
            // console.log(responses)
-          const markUp = generateMarkdown(responses)
+          const markUp = generateMarkdown(data)
             writeToFile('README.md', markUp)
         })
 }
