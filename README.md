@@ -29,7 +29,8 @@
   Run this code in node after running init and npm i with all needed modules. Next run index.js in the intergrated terminal to prompt user questions! You can also try to enter no input to have an empty string returned as a test to show the user funtionality approval. Clicking all links will also take you to the appropriate destination!
 
   ## Demo
-  [Demo](https://user-images.githubusercontent.com/77699769/113473013-e2403100-9434-11eb-91ac-f58b97795c3d.mp4)
+  ![Demo](assets\readme.gif)
+  
   [DemoLink](https://drive.google.com/file/d/1DjSW4x8ByR6W9uELGxjUTffWJU9bbLua/view?usp=sharing)
 
   ## Questions
